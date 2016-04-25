@@ -2,18 +2,25 @@ package com.ttnd.demo
 
 import com.ttnd.demo.CO.*
 import com.ttnd.demo.VO.*
+import com.ttnd.demo.*
 import grails.converters.JSON
-import org.apache.tools.ant.taskdefs.Delete
 import org.grails.web.json.JSONArray
+
+import java.util.zip.GZIPOutputStream
+
+//import javax.ws.rs.core.MultivaluedMap
+
 
 class UserController {
 
-    def index() {}
+    def index() {
+        render(view: 'index.gsp')
+    }
 
     def register() {
     }
 
-    def registeration(RegisterCO registerCO) {
+    def registeration(RegisterCO registerCO ) {
         String msg = ""
         User user = new User()
         user.properties = registerCO.properties
@@ -30,15 +37,15 @@ class UserController {
     def view() {
     }
 
+    def converter(){
+    }
+
     def viewPage() {
-//        List<User> userList = User.findAll()
         render(view: '/user/view')
     }
 
-    def delete(Long userId) {
-        println "${userId}"
-        User user = User.load(userId)
-        pritnln "-------------------${user}----------------"
+    def delete(Long id) {
+        User user = User.load(id)
         if (user) {
             user.delete(flush: true)
             flash.message = "User deleted successfully."
@@ -48,9 +55,9 @@ class UserController {
         redirect(controller: 'user', action: 'viewPage')
     }
 
-    def edit(Long userId) {
-        println userId
-        User user = User.findById(userId as Long)
+    def edit(Long id) {
+        println id
+        User user = User.findById(id as Long)
         render(view: '/user/edit', model: [user: user])
     }
 
@@ -77,15 +84,42 @@ class UserController {
     }
 
     def fetchUsers(SearchCO searchCO) {
-//        print("Prams  >> "+params)
         searchCO.length = params.length ? params.int("length") : 10
         searchCO.start = params.start ? params.int("start") : 0
         List<User> userList = User.search(searchCO).list(max: searchCO.length, offset: searchCO.start, order: searchCO.fetchSortingOrder(), sort: searchCO.fetchSortProperty())
         List<UserVO> users = userList.collect {
-            new UserVO(id: it.id, firstName: it.firstName, lastName: it.lastName, userName: it.userName, email: it.email,
-                    edit: "<a href='/user/edit' params='[userId: user.id]'>Edit</a>",
-                    delete: "<a href='/user/delete' params='[userId: user.id]'>Delete</a>")
+            new UserVO(id: it.id, firstName: it.firstName, lastName: it.lastName, userName: it.userName, email: it.email)
         }
         render(["data": users, "recordsTotal": User.count(), "recordsFiltered": User.count()] as JSON)
     }
+
+    def upload() {
+        def user = new User(
+                firstName: "Shivangi",
+                lastName: "Gupta",
+                userName: "Delhi"
+        )
+        Map result = [user: user]
+        /* final String grailsVersion = grailsApplication.metadata.getGrailsVersion()
+         final String groovyVersion = GroovySystem.version
+         header 'X-Powered-By', "Grails: $grailsVersion, Groovy: $groovyVersion"*/
+//        response.addHeader("Content-Encoding", "gzip")
+/*
+        String ae = request.getHeader("accept-encoding")
+
+        if (ae != null && ae.indexOf("gzip") != -1) {
+                response.addHeader("Content-Encoding", "gzip");
+                GZIPResponseWrapper gzipResponse =
+                        new GZIPResponseWrapper(response)
+            response
+            }*/
+        render result
+//        chain.doFilter(request, response);
+    }
+
+
+    def convert(){
+
+    }
+
 }

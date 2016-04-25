@@ -34,7 +34,7 @@
     <table id="example" class="table table-striped table-bordered" cellspacing="0" width="100%">
         <thead>
         <tr>
-            <th>S.No</th>
+            <th>Id</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>User Name</th>
@@ -46,7 +46,7 @@
 
          <tfoot>
          <tr>
-             <th>S.No</th>
+             <th>Id</th>
              <th>First Name</th>
              <th>Last Name</th>
              <th>User Name</th>
@@ -86,8 +86,20 @@
                 {"data": "lastName"},
                 {"data": "userName"},
                 {"data": "email"},
-                {"data" : "edit"},
-                {"data" : "delete"}
+                {
+                    "data": null,
+                    "render": function (data, type, row, meta) {
+                        var a = '<a href="/user/edit/' + row.id + '">Edit</a>'
+                        return a;
+                    }
+                },
+                {
+                    "data": null,
+                    "render": function (data, type, row, meta) {
+                        var a = '<a href="/user/delete/' + row.id + '">Delete</a>'
+                        return a;
+                    }
+                }
             ]
         });
     });

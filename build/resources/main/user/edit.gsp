@@ -51,7 +51,7 @@
         <g:hiddenField name="userId" value="${user.id}"/>
 
         <div>
-            <g:submitButton value="Edit" action="editPage" name="Edit" class="btn btn-default"
+            <g:submitButton value="Save" action="editPage" name="Edit" class="btn btn-default"
                             style="float:right; background-color:#d2d4d9"></g:submitButton>
         </div>
     </g:form>

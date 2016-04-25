@@ -1,0 +1,6 @@
+#Thu, 21 Apr 2016 09:47:10 +0530
+
+info.app.version=0.1
+info.app.name=Grails3.1.4Demo
+grails.env=production
+info.app.grailsVersion=3.1.4

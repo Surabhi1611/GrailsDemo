@@ -6,6 +6,4 @@ class UserVO {
     String lastName
     String userName
     String email
-    String edit
-    String delete
 }
