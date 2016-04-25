@@ -8,8 +8,6 @@ import org.grails.web.json.JSONArray
 
 import java.util.zip.GZIPOutputStream
 
-//import javax.ws.rs.core.MultivaluedMap
-
 
 class UserController {
 
@@ -20,7 +18,7 @@ class UserController {
     def register() {
     }
 
-    def registeration(RegisterCO registerCO ) {
+    def registeration(RegisterCO registerCO) {
         String msg = ""
         User user = new User()
         user.properties = registerCO.properties
@@ -35,9 +33,6 @@ class UserController {
     }
 
     def view() {
-    }
-
-    def converter(){
     }
 
     def viewPage() {
@@ -117,9 +112,21 @@ class UserController {
 //        chain.doFilter(request, response);
     }
 
+    def converter() {
+        render(view: 'converter', model: [list:['AED', 'USD', 'INR', 'EUR', 'CAD']])
+    }
 
-    def convert(){
-
+    def convert() {
+        println "--------------------------${params}-------------------"
+        String stringUrl = "https://xecdapi.xe.com/v1/convert_to.json";
+        URL url = new URL(stringUrl);
+        URLConnection uc = url.openConnection();
+        uc.setRequestProperty("X-Requested-With", "Curl");
+        String userpass = "tothenew861870114" + ":" + "1cga0vjl6v7phr69rog27lmoqv";
+        String basicAuth = "Basic " + new String(new Base64().encode(userpass.getBytes()));
+        uc.setRequestProperty("Authorization", basicAuth);
+        InputStreamReader inputStreamReader = new InputStreamReader(uc.getInputStream());
+        render params
     }
 
 }

@@ -1,3 +1,4 @@
+/*
 package com.ttnd.demo
 
 import javax.servlet.FilterChain
@@ -27,6 +28,7 @@ class ApplicationInterceptor {
     void afterView() {
         // no-op
     }
+*/
 /*
 
     public void doFilter(ServletRequest request,
@@ -56,9 +58,11 @@ class ApplicationInterceptor {
         return acceptEncoding != null &&
                 acceptEncoding.indexOf("gzip") != -1;
     }
-*/
+*//*
+
 
     public ApplicationInterceptor() {
         match(controller: 'user')
     }
 }
+*/
