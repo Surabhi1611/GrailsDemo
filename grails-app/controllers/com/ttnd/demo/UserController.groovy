@@ -117,13 +117,21 @@ class UserController {
     }
 
     def convert() {
-        println "--------------------------${params}-------------------"
-        String stringUrl = "https://xecdapi.xe.com/v1/convert_to.json";
+        println "-------------${params.amount}------------"
+        String amount = params.amount
+        println "-------------${params.toCurrency}------------"
+        String toCurrency = params.toCurrency
+        
+        String stringUrl = "https://xecdapi.xe.com/v1/convert_to.json/?to=toCurrency&from=AED&amount=amount";
         URL url = new URL(stringUrl);
+
         URLConnection uc = url.openConnection();
         uc.setRequestProperty("X-Requested-With", "Curl");
+
         String userpass = "tothenew861870114" + ":" + "1cga0vjl6v7phr69rog27lmoqv";
-        String basicAuth = "Basic " + new String(new Base64().encode(userpass.getBytes()));
+
+//        String basicAuth = "Basic " + new String(new Base64().encode(userpass.getBytes()));
+        String basicAuth = "Basic " + javax.xml.bind.DatatypeConverter.printBase64Binary(userpass.getBytes("UTF-8"));
         uc.setRequestProperty("Authorization", basicAuth);
         InputStreamReader inputStreamReader = new InputStreamReader(uc.getInputStream());
         render params
