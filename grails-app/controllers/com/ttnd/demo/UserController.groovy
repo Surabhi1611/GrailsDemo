@@ -4,12 +4,16 @@ import com.ttnd.demo.CO.*
 import com.ttnd.demo.VO.*
 import com.ttnd.demo.*
 import grails.converters.JSON
+import grails.plugins.rest.client.RestResponse
 import org.grails.web.json.JSONArray
 
+import java.nio.charset.Charset
 import java.util.zip.GZIPOutputStream
 
 
 class UserController {
+
+    def httpRequestsService
 
     def index() {
         render(view: 'index.gsp')
@@ -113,28 +117,15 @@ class UserController {
     }
 
     def converter() {
-        render(view: 'converter', model: [list:['AED', 'USD', 'INR', 'EUR', 'CAD']])
+        render(view: 'converter', model: [list: ['AED', 'USD', 'INR', 'EUR', 'CAD']])
     }
 
     def convert() {
-        println "-------------${params.amount}------------"
-        String amount = params.amount
-        println "-------------${params.toCurrency}------------"
-        String toCurrency = params.toCurrency
-        
-        String stringUrl = "https://xecdapi.xe.com/v1/convert_to.json/?to=toCurrency&from=AED&amount=amount";
-        URL url = new URL(stringUrl);
-
-        URLConnection uc = url.openConnection();
-        uc.setRequestProperty("X-Requested-With", "Curl");
-
-        String userpass = "tothenew861870114" + ":" + "1cga0vjl6v7phr69rog27lmoqv";
-
-//        String basicAuth = "Basic " + new String(new Base64().encode(userpass.getBytes()));
-        String basicAuth = "Basic " + javax.xml.bind.DatatypeConverter.printBase64Binary(userpass.getBytes("UTF-8"));
-        uc.setRequestProperty("Authorization", basicAuth);
-        InputStreamReader inputStreamReader = new InputStreamReader(uc.getInputStream());
-        render params
+        RestResponse rr = httpRequestsService.makeRequest()
+        rr.json.each {
+            println it.value
+        }
+        render rr.json
     }
 
 }

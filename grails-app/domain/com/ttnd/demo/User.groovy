@@ -10,8 +10,8 @@ class User {
     String userName
     String email
     String password
-//    Date dateSelected
-//    Date timespam
+    String currency
+    Float rate
     Date dateCreated
     Date lastUpdated
 

@@ -40,6 +40,7 @@
 <!--Form Closing-->
 </div>
 
+
 <script type="text/javascript">
     $(document).ready(function () {
         $('#currencyConversion').click(function (e) {
@@ -48,12 +49,39 @@
             var datato = jQuery("#toCurrency").val();
             jQuery.ajax({
                 url: "user/convert",
-                data: {from: datafrom, to: ${list}}
+                data: {from: amount, to: datato}
             });
         });
     });
-
 </script>
+
+
+%{--<script type="text/javascript">
+    $(document).ready(function () {
+        $('[name="Submit"]').click(function (e) {
+            e.preventDefault();
+            var amount = jQuery("#amount").val();
+            var datato = jQuery("#toCurrency").val();
+          /*  $.ajax({
+                url: "https://xecdapi.xe.com/v1/convert_to.json/?to=USD&from=CAD&amount=1000.00",
+                dataType: 'json',
+                beforeSend: function (xhr) {
+                    xhr.setRequestHeader("Authorization", "Basic " + btoa("tothenew861870114" + ":" + "1cga0vjl6v7phr69rog27lmoqv"));
+                },
+
+                success: function (data) {
+                    // success handler
+                    console.log("Ajax Done");
+                    console.log(data);
+                }, error: function () {
+                    // error handler
+                    console.log("Ajax Break");
+                }
+            });*/
+        });
+    });
+
+</script>--}%
 
 </body>
 </html>
