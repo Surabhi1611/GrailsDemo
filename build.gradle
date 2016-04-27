@@ -54,6 +54,7 @@ dependencies {
     compile "org.hibernate:hibernate-ehcache"
     compile "org.grails:grails-datastore-rest-client:5.0.0.RC2"
     console "org.grails:grails-console"
+    compile "org.grails.plugins:quartz:2.0.9"
     profile "org.grails.profiles:web:3.1.4"
     runtime "org.grails.plugins:asset-pipeline"
     runtime "com.h2database:h2"
