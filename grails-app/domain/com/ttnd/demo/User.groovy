@@ -10,8 +10,6 @@ class User {
     String userName
     String email
     String password
-    String currency
-    Float rate
     Date dateCreated
     Date lastUpdated
 

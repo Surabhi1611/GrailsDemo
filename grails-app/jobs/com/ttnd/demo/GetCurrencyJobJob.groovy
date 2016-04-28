@@ -5,7 +5,7 @@ class GetCurrencyJobJob {
     def httpRequestsService
 
     static triggers = {
-      cron name: "automaticUpdate", cronExpression: "0 47 15 27 4 ?"
+      cron name: "automaticUpdate", cronExpression: "0 36 23 28 4 ?"
     }
 
     def execute() {

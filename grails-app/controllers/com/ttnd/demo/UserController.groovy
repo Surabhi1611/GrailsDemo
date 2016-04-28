@@ -5,6 +5,7 @@ import com.ttnd.demo.VO.*
 import com.ttnd.demo.*
 import grails.converters.JSON
 import grails.plugins.rest.client.RestResponse
+import groovy.json.JsonSlurper
 import org.grails.web.json.JSONArray
 
 import java.nio.charset.Charset
@@ -121,11 +122,6 @@ class UserController {
     }
 
     def convert() {
-        RestResponse rr = httpRequestsService.makeRequest()
-        rr.json.each {
-            println it.value
-        }
-        render rr.json
-    }
 
+    }
 }
