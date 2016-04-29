@@ -171,28 +171,25 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/Grails3.1.4Demo-0.1.war.original" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/resources.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/services/com/ttnd/demo/UserService.groovy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/groovy/com/ttnd/demo/Util.groovy" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.asscache" afterPath="$PROJECT_DIR$/.asscache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/ApplicationInterceptor.class" afterPath="$PROJECT_DIR$/build/classes/main/ApplicationInterceptor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/CO/RegisterCO.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/CO/RegisterCO.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/CO/SearchCO.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/CO/SearchCO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/CurrencyRate.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/CurrencyRate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/GetCurrencyJobJob$__clinit__closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/GetCurrencyJobJob$__clinit__closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/GetCurrencyJobJob.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/GetCurrencyJobJob.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$__tt__makeRequest_closure5.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$__tt__makeRequest_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$__tt__makeRequest_closure6.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$__tt__makeRequest_closure6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$_getList_closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$_getList_closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$_getList_closure2.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$_getList_closure2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/User$__clinit__closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/User$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/User$__clinit__closure2$_closure3$_closure4.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/User$__clinit__closure2$_closure3$_closure4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/User$__clinit__closure2$_closure3.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/User$__clinit__closure2$_closure3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/User$__clinit__closure2.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/User$__clinit__closure2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/User.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/UserController$_fetchUsers_closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/UserController$_fetchUsers_closure1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/UserController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/UserController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/ttnd/demo/UserController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/ttnd/demo/UserController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/domain/com/ttnd/demo/User.groovy" afterPath="$PROJECT_DIR$/grails-app/domain/com/ttnd/demo/User.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy" afterPath="$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/ttnd/demo/HttpRequestsService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/ttnd/demo/HttpRequestsService.groovy" />
     </list>
@@ -223,11 +220,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HttpRequestsService.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HttpRequestsService.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/services/com/ttnd/demo/HttpRequestsService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6839546">
-              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="e#23#52#0" expanded="true" />
               </folding>
@@ -235,10 +232,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetCurrencyJobJob.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GetCurrencyJobJob.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.17017828">
               <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               <folding />
             </state>
@@ -1098,8 +1095,8 @@
         <option value="$PROJECT_DIR$/src/main/groovy/com/ttnd/demo/Util.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/ttnd/demo/ListToStringUtil.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/ttnd/demo/UserController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy" />
         <option value="$PROJECT_DIR$/grails-app/services/com/ttnd/demo/HttpRequestsService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy" />
       </list>
     </option>
   </component>
@@ -1715,12 +1712,12 @@
       <updated>1461737104804</updated>
       <workItem from="1461737114745" duration="9180000" />
       <workItem from="1461821972013" duration="18745000" />
-      <workItem from="1461865936588" duration="1116000" />
+      <workItem from="1461865936588" duration="4337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29041000" />
+    <option name="totallyTimeSpent" value="32262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -1737,6 +1734,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1750,7 +1748,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1878,21 +1875,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/services/com/ttnd/demo/HttpRequestsService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6839546">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="e#23#52#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17017828">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>

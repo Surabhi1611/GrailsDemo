@@ -5,6 +5,7 @@ import grails.plugins.rest.client.RestBuilder
 import grails.plugins.rest.client.RestResponse
 import grails.transaction.Transactional
 import groovy.json.JsonSlurper
+import groovy.json.JsonSlurperClassic
 
 @Transactional
 class HttpRequestsService {
@@ -17,6 +18,7 @@ class HttpRequestsService {
         }
         Map result = convertJsonToMap(response)
         List currencyList =[]
+        println response
         result.currencies.each {
             currencyList.add(it.iso)
         }
@@ -34,19 +36,19 @@ class HttpRequestsService {
         RestResponse response = restBuilder.get(url) {
             auth("tothenew861870114","1cga0vjl6v7phr69rog27lmoqv")
         }
-        Map result = convertJsonToMap(response)
-        println "--------------Result Map----------------"
-        println result
-        result.from.each {
+        response.json.from.each {
             CurrencyRate currencyRate = new CurrencyRate(currency: it.quotecurrency, rate: it.mid)
             currencyRate.save(flush:true)
         }
+
+        println "Done"
+
     }
 
     def convertJsonToMap(RestResponse rr){
         String str = rr.json.toString()
-        def slurper = new JsonSlurper()
-        Map parsedMap = slurper.parseText(str)
+        JsonSlurperClassic slurper = new JsonSlurperClassic()
+        Map parsedMap = (Map)slurper.parseText(str)
         parsedMap
     }
 }
