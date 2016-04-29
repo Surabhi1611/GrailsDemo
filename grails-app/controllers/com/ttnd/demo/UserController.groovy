@@ -122,6 +122,9 @@ class UserController {
     }
 
     def convert() {
-
+        Float amount = params.amount as Float
+        CurrencyRate currencyRate = CurrencyRate.findByCurrency(params.fromCurrency)
+        Float totalAmount = amount * currencyRate.rate
+        render totalAmount
     }
 }

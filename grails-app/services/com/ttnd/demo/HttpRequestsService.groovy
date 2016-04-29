@@ -24,7 +24,7 @@ class HttpRequestsService {
         currencyList
     }
 
-    RestResponse makeRequest(){
+    void makeRequest(){
         String fromList = getList().join(",")
         String url = "https://xecdapi.xe.com/v1/convert_to.json/?to=AED&from=${fromList}&amount=1"
         RestBuilder restBuilder = new RestBuilder()
@@ -33,7 +33,7 @@ class HttpRequestsService {
         }
         response.json.from.each {
             CurrencyRate currencyRate = new CurrencyRate(currency: it.quotecurrency, rate: it.mid)
-            currencyRate.save(flush:true)
+            currencyRate.save(flush: true)
         }
     }
 
