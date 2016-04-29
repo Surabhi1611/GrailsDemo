@@ -18,19 +18,14 @@ class HttpRequestsService {
         }
         Map result = convertJsonToMap(response)
         List currencyList =[]
-        println response
         result.currencies.each {
             currencyList.add(it.iso)
         }
-        println "------------List--------------------"
-        println currencyList
         currencyList
     }
 
     RestResponse makeRequest(){
         String fromList = getList().join(",")
-        println "--------------fromList----------------"
-        println fromList
         String url = "https://xecdapi.xe.com/v1/convert_to.json/?to=AED&from=${fromList}&amount=1"
         RestBuilder restBuilder = new RestBuilder()
         RestResponse response = restBuilder.get(url) {
@@ -40,9 +35,6 @@ class HttpRequestsService {
             CurrencyRate currencyRate = new CurrencyRate(currency: it.quotecurrency, rate: it.mid)
             currencyRate.save(flush:true)
         }
-
-        println "Done"
-
     }
 
     def convertJsonToMap(RestResponse rr){

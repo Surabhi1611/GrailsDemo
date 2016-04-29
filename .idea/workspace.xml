@@ -171,26 +171,6 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/Grails3.1.4Demo-0.1.war.original" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/resources.iml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.9/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/ApplicationInterceptor.class" afterPath="$PROJECT_DIR$/build/classes/main/ApplicationInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/CO/RegisterCO.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/CO/RegisterCO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/CO/SearchCO.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/CO/SearchCO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/CurrencyRate.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/CurrencyRate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/GetCurrencyJobJob$__clinit__closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/GetCurrencyJobJob$__clinit__closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/GetCurrencyJobJob.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/GetCurrencyJobJob.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$__tt__makeRequest_closure5.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$__tt__makeRequest_closure5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$__tt__makeRequest_closure6.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$__tt__makeRequest_closure6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$_getList_closure1.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$_getList_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$_getList_closure2.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService$_getList_closure2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/HttpRequestsService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/User.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/UserController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/ttnd/demo/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy" afterPath="$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/ttnd/demo/HttpRequestsService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/ttnd/demo/HttpRequestsService.groovy" />
     </list>
     <ignored path="Grails3.1.4Demo.iws" />
@@ -220,11 +200,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HttpRequestsService.groovy" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HttpRequestsService.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grails-app/services/com/ttnd/demo/HttpRequestsService.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.84641635">
+              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
               <folding>
                 <element signature="e#23#52#0" expanded="true" />
               </folding>
@@ -232,10 +212,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetCurrencyJobJob.groovy" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetCurrencyJobJob.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17017828">
+            <state vertical-scroll-proportion="0.0">
               <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
               <folding />
             </state>
@@ -1095,8 +1075,8 @@
         <option value="$PROJECT_DIR$/src/main/groovy/com/ttnd/demo/Util.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/com/ttnd/demo/ListToStringUtil.groovy" />
         <option value="$PROJECT_DIR$/grails-app/controllers/com/ttnd/demo/UserController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/services/com/ttnd/demo/HttpRequestsService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/com/ttnd/demo/HttpRequestsService.groovy" />
       </list>
     </option>
   </component>
@@ -1712,12 +1692,12 @@
       <updated>1461737104804</updated>
       <workItem from="1461737114745" duration="9180000" />
       <workItem from="1461821972013" duration="18745000" />
-      <workItem from="1461865936588" duration="4337000" />
+      <workItem from="1461865936588" duration="4561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32262000" />
+    <option name="totallyTimeSpent" value="32486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -1875,21 +1855,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/com/ttnd/demo/HttpRequestsService.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding>
-            <element signature="e#23#52#0" expanded="true" />
-          </folding>
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/jobs/com/ttnd/demo/GetCurrencyJobJob.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/services/com/ttnd/demo/HttpRequestsService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17017828">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding />
+        <state vertical-scroll-proportion="0.84641635">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="e#23#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
